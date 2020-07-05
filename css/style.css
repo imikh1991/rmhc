@@ -1,0 +1,198 @@
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background: #E5E5E5;
+}
+
+.slider {
+    width: 1440px;
+    height: 649px;
+
+}
+
+.swiper-slide h3 {
+
+    display: flex;
+    align-items: flex-end;
+
+    width: 712px;
+    height: 165px;
+    left: 120px;
+    top: 175px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 120%;
+    /* or 60px */
+    color: #FFFFFF;
+}
+
+
+.swiper-wrapper button {
+    color: #FFFFFF;
+    width: 220px;
+    height: 50px;
+    left: 120px;
+    top: 405px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    
+
+    left: 0%;
+    right: 0%;
+    top: 22%;
+    bottom: 24%;
+
+    background: #FFC829;
+}
+
+
+
+.swiper-slide-1 {
+    width: 100%;
+    height: 100%;
+
+    background-image: url("/img/slider-1.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.swiper-slide-2 {
+    width: 100%;
+    height: 100%;
+
+    background-image: url("/img/slider-2.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.swiper-slide-3 {
+    width: 100%;
+    height: 100%;
+   
+    background-image: url("/img/slider-3.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+
+
+.boxes-activities-h2 {
+
+    position: absolute;
+    width: 430px;
+    height: 47px;
+    left: 505px;
+    top: 832px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 120%;
+    /* or 60px */
+
+    text-align: center;
+
+    color: #666666;
+    }
+
+.main-navigation {
+    display: flex;
+    align-items: center;
+    min-height: 73.8px;
+    min-width: 1000px;
+    background-color: transparent;
+}
+
+.site-navigation {
+    /* Menu Text */
+    display: flex;
+    justify-content: space-around;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    width: 900px;
+    
+    }
+
+.site-logo {
+
+   /* display: block; */
+   /* width: 33.94px; */
+    height: 73 px;
+    /*left: calc(50% - 33.94px/2 - 574.8px);*/
+    top: 18.04px;
+    margin: 10;
+    padding: 10;
+
+    background: #FFFFFF;
+    }
+
+.site-navigation,
+.search-icon, 
+.help-navigation {
+    text-transform: uppercase;
+    list-style: none;
+    color: #000000;
+}
+
+.site-navigation a,
+.search-icon,
+.help-navigation {
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.help {
+    background-color: red;
+    color: white;
+}
+
+/* стили для подключенного свайпера */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Слайдер - Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }

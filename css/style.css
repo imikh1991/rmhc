@@ -4,113 +4,270 @@ body {
     background: #E5E5E5;
 }
 
+.payment-widget {
+    position: relative;
+    width: 396px;
+    height: 616px;
+    bottom: 630px;
+    left: 960px;
+    z-index: 2;
+    background: #FFC829;
+
+}
 .slider {
     width: 1440px;
     height: 649px;
+}
 
+.btn {
+    background: #FFC829;
+}
+
+.button {
+    display: flex;
+    flex-wrap: wrap;
+    background: #FFC829;
 }
 
 .swiper-slide h3 {
-
-    display: flex;
-    align-items: flex-end;
-
-    width: 712px;
+    text-align: left;
+    z-index: 2;
+    width: 742px;
     height: 165px;
-    left: 120px;
-    top: 175px;
-
     font-family: Rubik;
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
     line-height: 120%;
+    margin-top: 60px;
     /* or 60px */
     color: #FFFFFF;
 }
 
 
-.swiper-wrapper button {
-    color: #FFFFFF;
+.button-info {
+
     width: 220px;
     height: 50px;
-    left: 120px;
-    top: 405px;
+    z-index: 2;
     font-weight: 500;
+    color: #FFFFFF;
     font-size: 22px;
     line-height: 26px;
-    
-
-    left: 0%;
-    right: 0%;
-    top: 22%;
-    bottom: 24%;
-
     background: #FFC829;
 }
 
+.swiper-container__block {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 
+    justify-content: space-between;
+
+    position: relative;
+    color: #FFFFFF;
+    width: 742px;
+    height: 350px;
+    left: 126px;
+    top: 110px;
+}
 
 .swiper-slide-1 {
     width: 100%;
     height: 100%;
 
-    background-image: url("/img/slider-1.jpg");
+    background-image: url("/Users/elijahswanson/Downloads/rmhc-master/img/slider-1.jpg");
     background-position: top center;
     background-repeat: no-repeat;
+}
+
+.swiper-slide-1::after {
+    background: transparent;
+    background: linear-gradient(81.36deg, rgba(0, 0, 0, 0.59) -27.5%, rgba(0, 0, 0, 0) 88.88%);
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 
 .swiper-slide-2 {
     width: 100%;
     height: 100%;
 
-    background-image: url("/img/slider-2.jpg");
+    background-image: url("/Users/elijahswanson/Downloads/rmhc-master/img/slider-2.jpg");
     background-position: top center;
     background-repeat: no-repeat;
+}
+
+.swiper-slide-2::after {
+    background: transparent;
+    background: linear-gradient(81.36deg, rgba(0, 0, 0, 0.59) -27.5%, rgba(0, 0, 0, 0) 88.88%);
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 
 .swiper-slide-3 {
     width: 100%;
     height: 100%;
    
-    background-image: url("/img/slider-3.jpg");
+    background-image: url("/Users/elijahswanson/Downloads/rmhc-master/img/slider-3.jpg");
     background-position: top center;
     background-repeat: no-repeat;
 }
 
-
-
-.boxes-activities-h2 {
-
+.swiper-slide-3::after {
+    background: transparent;
+    background: linear-gradient(81.36deg, rgba(0, 0, 0, 0.59) -27.5%, rgba(0, 0, 0, 0) 88.88%);
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
     position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.activities {
+    font-family: 'Rubik', sans-serif;
+}
+.activities__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    max-width: 1200px;
+    min-height: 409px;
+    margin: auto;
+}
+
+.activities__header {
+    font-family: 'Rubik', sans-serif;
+    margin-top: 90px;
+    scroll-margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
     width: 430px;
     height: 47px;
     left: 505px;
     top: 832px;
 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 120%;
+    /* or 60px */
+    text-align: center;
+    color: #666666;
+    }
+
+.activities__item:hover {
+    transform: scale(0.9); 
+    transform: translateX(-4px);
+    transform: translateY(-2px);
+}
+    
+
+.activities__box {
+    font-family: 'Rubik', sans-serif;
+    height: 399px;
+    width: 270px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-title h5 {
+    font-family: 'Rubik', sans-serif;
+}
+
+.facts {
+    min-height: 647px;
+    background: #4872AE;
+}
+
+.facts__header {
+    margin-top: 30px;
     font-family: Rubik;
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
     line-height: 120%;
     /* or 60px */
-
+    color: #FFFFFF;
     text-align: center;
+}
 
-    color: #666666;
-    }
+.facts__item-header {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 130%;
+    /* or 83px */
+    text-align: center;
+    border: 2px solid #FFC829;
+}
 
-.main-navigation {
+.facts__item-text {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.facts__content {
+    width: 1161px;
+    margin: auto;
+    height: 507px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around; 
+}
+
+.facts__item {
+    width: 387px;
+    height: 147px;
+    text-align: center;
+}
+
+.facts__content-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main-header__main-navigation {
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
     min-height: 73.8px;
     min-width: 1000px;
     background-color: transparent;
 }
 
-.site-navigation {
+.main-header__site-navigation {
     /* Menu Text */
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 
     font-family: Rubik;
@@ -122,8 +279,7 @@ body {
     
     }
 
-.site-logo {
-
+.main-header__site-logo {
    /* display: block; */
    /* width: 33.94px; */
     height: 73 px;
@@ -135,20 +291,21 @@ body {
     background: #FFFFFF;
     }
 
-.site-navigation,
-.search-icon, 
-.help-navigation {
+.main-header__site-navigation,
+.main-header__search-icon, 
+.main-header__help-navigation {
     text-transform: uppercase;
     list-style: none;
     color: #000000;
 }
 
-.site-navigation a,
-.search-icon,
-.help-navigation {
+.main-header__site-navigation a,
+.main-header__search-icon,
+.main-header__help-navigation {
     color: #000000;
     text-decoration: none;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     text-align: center;
     letter-spacing: 0.02em;
@@ -166,7 +323,7 @@ body {
     overflow: hidden;
 }
 
-.help {
+.main-header__help {
     background-color: red;
     color: white;
 }
@@ -180,7 +337,8 @@ body {
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    
+
     /* Слайдер - Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -195,3 +353,6 @@ body {
     -webkit-align-items: center;
     align-items: center;
   }
+
+
+/*# sourceMappingURL=/style.78032849.css.map */
